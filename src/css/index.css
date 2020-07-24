@@ -1,5 +1,31 @@
 body {
-	margin: 0;
+	margin-left: 1em;
 	background-color: lightgrey;
 	font: 1em helvetica, arial, sans-serif;
+	/* background-image: url('./../img/bg.png'); */
+}
+
+img {
+	max-width: 200px;
+	/* max-height: 200px; */
+}
+
+.products-wrapper {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  vertical-align: baseline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.product-item {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 16em;
+  margin: auto;
+  text-align: center;
+
 }
